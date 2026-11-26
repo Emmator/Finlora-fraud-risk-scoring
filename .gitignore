@@ -1,0 +1,39 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local datasets and exports
+Data/
+*.csv
+*.xlsx
+*.parquet
+
+# Large saved model artifacts
+*.joblib
+*.pkl
+
+# Streamlit local configuration
+.streamlit/secrets.toml
+
+# Generated machine-learning arrays
+*.npz
+*.npy
